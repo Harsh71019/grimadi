@@ -8,7 +8,7 @@ const TurfCard = () => {
     <section className="card-container-main">
       <div className="card-container">
         <div className="card-image">
-          <img src={Turf} className="image-styling" />
+          <img src={Turf} className="image-styling" alt="turf" />
         </div>
         <div className="card-title">Title</div>
         <div className="card-address">Address</div>
@@ -18,42 +18,42 @@ const TurfCard = () => {
       </div>
       <div className="card-container">
         <div className="card-image">
-          <img src={Turf2} className="image-styling" />
+          <img src={Turf2} className="image-styling" alt="turf2" />
         </div>
       </div>
       <div className="card-container">
         <div className="card-image">
-          <img src={Turf} className="image-styling" />
+          <img src={Turf} className="image-styling" alt="turf"/>
         </div>
       </div>
       <div className="card-container">
         <div className="card-image">
-          <img src={Turf2} className="image-styling" />
+          <img src={Turf2} className="image-styling" alt="turf2" />
         </div>
       </div>
       <div className="card-container">
         <div className="card-image">
-          <img src={Turf} className="image-styling" />
+          <img src={Turf} className="image-styling" alt="turf" />
         </div>
       </div>
       <div className="card-container">
         <div className="card-image">
-          <img src={Turf2} className="image-styling" />
+          <img src={Turf2} className="image-styling" alt="turf2" />
         </div>
       </div>
       <div className="card-container">
         <div className="card-image">
-          <img src={Turf} className="image-styling" />
+          <img src={Turf} className="image-styling" alt="turf2" />
         </div>
       </div>
       <div className="card-container">
         <div className="card-image">
-          <img src={Turf2} className="image-styling" />
+          <img src={Turf2} className="image-styling" alt="turf2"/>
         </div>
       </div>
       <div className="card-container">
         <div className="card-image">
-          <img src={Turf} className="image-styling" />
+          <img src={Turf} className="image-styling" alt="turf"/>
         </div>
       </div>
     </section>

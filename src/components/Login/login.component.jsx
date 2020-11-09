@@ -18,7 +18,7 @@ const LoginPage = () => {
     console.log(e.target.value);
   };
   return (
-    <div className="containerLogin" onSubmit={(e) => onSubmit(e)}>
+    <div className="containerLogin " onSubmit={(e) => onSubmit(e)}>
       <h1>Login</h1>
       <form className="login-form" id="form">  
         {/* Email */}

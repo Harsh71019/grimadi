@@ -22,7 +22,7 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="container-register">
+    <div className="container-register center">
       <h1>Register</h1>
       <form id="form" className="register-form" onSubmit={(e) => onSubmit(e)}>
         {/* Full Name */}
@@ -102,9 +102,9 @@ const RegisterPage = () => {
           />
         </div>
 
-        <button className="register-button" type="submit" value="Register">Register</button>
+        <button className="register-button " type="submit" value="Register">Register</button>
         <Link to="/login">
-          <button className="register-button">Already have a account? Login</button>
+          <button className="register-button ">Already have a account? Login</button>
         </Link>
       </form>
     </div>

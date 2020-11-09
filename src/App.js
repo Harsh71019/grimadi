@@ -1,8 +1,8 @@
 import React from "react";
 import LoginPage from "./components/Login/login.component.jsx";
 import RegisterPage from "./components/Register/register.component.jsx";
-import NavBar from "./components/Navbar/navbar.component.jsx";
 import Footer from "./components/Footer/footer.component.jsx";
+import NavBar from "./components/Navbar/navbar.component";
 import Landing from "./components/Landing/landing.component.jsx";
 import TurfCard from "./components/TurfCard/turfcard.component.jsx";
 import TurfScreen from "./components/TurfScreen/turfscreen.component.jsx"
@@ -14,21 +14,21 @@ const App = () => {
     harsh: "fgweufguwefgu",
   };
   return (
-    <>
+    <div>
       <Router>
-        <NavBar dummy={dummy} />
-        <Route exact path="/" component={Landing} />
-        <section className="container-main">
+        <Route exact path="/" component={Landing} dummy={dummy} />
+        <section className="container-main center">
           <Switch>
             <Route exact path="/register" component={RegisterPage} />
             <Route exact path="/login" component={LoginPage} />
             <Route exact path="/turfs" component={TurfCard} />
             <Route exact path="/turfs/id" component={TurfScreen} />
           </Switch>
+          <NavBar dummy = {dummy}/>
         </section>
         <Footer />
       </Router>
-    </>
+    </div>
   );
 };
 
