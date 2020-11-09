@@ -1,0 +1,84 @@
+.card-container-main {
+  display: flex;
+  padding: auto;
+  margin: auto;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container {
+  height: 350px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  overflow: hidden;
+  margin-right: 35px;
+}
+
+.card-container:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50%;
+}
+
+.image-styling {
+  width: 100%;
+  height: 140%;
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.book-button {
+  display: block;
+  width: 25%;
+  height: 10%;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #e6ecff;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.book-button span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+.book-button:hover,
+.card__btn:active {
+  background-color: #dce4ff;
+}
+.book-button:hover span,
+.card__btn:active span {
+  margin-left: 1.5rem;
+}
+
+.card-title {
+}
+
+.card-address {
+}
+
+/* For Mobile UI  */
+
+@media only screen and (max-width: 600px) {
+  .card-container-main {
+    flex-direction: column;
+  }
+}
